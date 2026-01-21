@@ -6,3 +6,151 @@
   font-weight: 400;
   font-style: normal;
 }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    color: #424242;
+}
+.brand{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.bg-light{
+    background-color: rgb(255, 144,14,0.1);
+}
+
+
+
+.nav-links{
+    display: flex;
+    
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.navbar,.banner{
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+}
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+main> section{
+    margin-top: 130px;
+}
+
+
+.btn-primary{
+    background-color: #FF900e;
+    color: white;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+}
+.banner-image{
+    width: 100%;
+    
+}
+
+.temas{
+    display: flex;
+    align-items:center ;
+}
+
+.temas-img-container{
+    display: grid;
+
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+}
+.our-features{
+    margin-left: 130px;
+
+    max-width: 500px;
+}
+#quics-liss{
+    font-weight: 500;
+}
+.feature-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.feature-description{
+
+}
+
+
+
+
+.fact-card{
+    border: 2px solid red;
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.fact-numder{
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.fact-name{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.facts-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+.sponsors-inof{
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.sponsor-companies{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+
+.sponsor-companies img{
+    filter: grayscale(100%);
+
+}
+.footer-title{
+    border: 1px solid tomato;
+    text-align: center;
+    padding: 20px;
+    background-color: #FF900e;
+    font-size: 1.rem;
+}
